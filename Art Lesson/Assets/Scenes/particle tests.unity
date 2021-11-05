@@ -5387,7 +5387,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99bf39cf05d53ed478ab7573b94fb060, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10377,6 +10377,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5015390711685390081, guid: 83b26a081dad20447aab1f645bda8487, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 99bf39cf05d53ed478ab7573b94fb060, type: 2}
+    - target: {fileID: 5015390712240687920, guid: 83b26a081dad20447aab1f645bda8487, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 99bf39cf05d53ed478ab7573b94fb060, type: 2}
+    - target: {fileID: 5015390712940518362, guid: 83b26a081dad20447aab1f645bda8487, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 99bf39cf05d53ed478ab7573b94fb060, type: 2}
     - target: {fileID: 5015390712940518363, guid: 83b26a081dad20447aab1f645bda8487, type: 3}
       propertyPath: m_Name
       value: baseFlame
